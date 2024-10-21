@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鄭宸翔的個人網站</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#intro">個人介紹</a></li>
+                <li><a href="#photos">照片</a></li>
+                <li><a href="#programs">筆記</a></li>
+                <li><a href="#contact">聯絡方式</a></li>
+            </ul>
+            <div class="dark-mode-toggle">
+                <img id="mode-icon" src="icon/sun.png" alt="切換深色模式">
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="box">
+            <h1>鄭宸翔</h1>
+            <p>各位教授好，我是鄭宸翔，目前就讀於萬芳高中數位學習實驗班。在學習過程中，我積極將程式設計應用於多個專題，並獲得亮眼的成績，例如全國科技農業提案競賽中，我與組員製作草莓甜度分檢系統，榮獲第三名；另外，我與同學共同製作的坐姿檢測系統，不但在高二上下學期專題課都是班排第一，也榮獲全國小論文甲等等優異成績。<br /> <br />除了自學Python和C++等語言，我擔任資訊研究社社長、教學長，也帶領多個團隊參與各項競賽，參加校內外多項主題式研討會，以持續精進我的資訊運用與管理等專業知識。我希望未來有機會在貴校的資訊管理(工程)領域繼續深造，非常期待成為您的學生，謝謝教授。
+                </p>
+        </div>
+    </section>
+    
+    <section id="photos">
+        <div class="box">
+            <h2>照片</h2>
+            <img src="picture/25.jpg" alt="個人照片" style="max-width: 100%; border-radius: 10px;">
+        </div>
+    </section>
+    
+    <section id="programs">
+        <div class="box">
+            <h2>筆記</h2>
+            <ul id="program-list"></ul>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="box">
+            <h2>聯絡方式</h2>
+            <p>Email：<a href="https://mail.google.com/mail/?view=cm&fs=1&to=justin520cheng@gmail.com" target="_blank" class="link-dark text-decoration-none">justin520cheng@gmail.com</a></p>
+            <p>Hackmd: <a href="https://hackmd.io/@wfit" target="_blank">WFIT_CLUB</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/jus.cx581/" target="_blank">jus.cx581</a></p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>瀏覽人數: <span id="visitor-count">0</span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
