@@ -2,6 +2,7 @@
 <html lang="zh-TW">
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
     <title>自我介紹 - 鄭宸翔</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -68,17 +69,7 @@
                     <h4 class="mb-0 mt-3">鄭宸翔</h4>
                     <p class="text-muted mb-0">臺北市立萬芳高級中學</p>
                     <p class="text-muted">數位學習實驗班</p>
-                    <!-- <ul class="social-list list-inline mt-3 mb-0">
-                        <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item border-purple text-purple"><i
-                                    class="fab fa-github"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item border-danger text-danger"><i
-                                    class="fab fa-google"></i></a>
-                        </li>
-                    </ul> -->
-                </div> <!-- end card-box -->
+                </div>
 
                 <div id="skill" class="card-box">
                     <div class="tab-content">
@@ -107,7 +98,7 @@
                             </ul>
                         </div>
                     </div>
-                </div> <!-- end card-box-->
+                </div>
 
                 <div id="traits" class="card-box">
                     <div class="tab-content">
@@ -122,7 +113,7 @@
                             </ul>
                         </div>
                     </div>
-                </div> <!-- end card-box-->
+                </div>
 
                 <div id="lead" class="card-box">
                     <div class="tab-content">
@@ -138,7 +129,7 @@
                             </ul>
                         </div>
                     </div>
-                </div> <!-- end card-box-->
+                </div>
 
                 <div id="exam" class="card-box">
                     <div class="tab-content">
@@ -161,9 +152,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- end timeline content-->
-                    </div> <!-- end tab-content -->
-                </div> <!-- end card-box-->
+                    </div>
+                </div>
 
                 <div id="publish" class="card-box">
                     <div class="tab-content">
@@ -191,10 +181,10 @@
                                     <p class="text-muted mt-2"></p>
                                 </li>
                             </ul>
-                        </div> <!-- end timeline content-->
-                    </div> <!-- end tab-content -->
-                </div> <!-- end card-box-->
-            </div> <!-- end col-->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="col-lg-8 col-xl-8">
 
@@ -248,9 +238,9 @@
                                     <p class="text-muted mt-2">利用Python程式語言開發出一支可以監測人體坐姿有無不良的程式，並以簡報、實作演示形式參與競賽。</p>
                                 </li>
                             </ul>
-                        </div> <!-- end timeline content-->
-                    </div> <!-- end tab-content -->
-                </div> <!-- end card-box-->
+                        </div>
+                    </div>
+                </div>
                 
                 <div id="contest" class="card-box">
                     <div class="tab-content">
@@ -314,9 +304,9 @@
                                     <p class="text-muted mt-2">與團隊開發出一款外型借鑒冰山漂浮穩定性，濾網參考鯨鯊濾食特性的水庫塑膠微粒過濾裝置。</p>
                                 </li>
                             </ul>
-                        </div> <!-- end timeline content-->
-                    </div> <!-- end tab-content -->
-                </div> <!-- end card-box-->
+                        </div>
+                    </div>
+                </div>
                 
                 <div id="course" class="card-box">
                     <div class="tab-content">
@@ -363,11 +353,11 @@
                                     <p class="text-muted mt-2">農業與科技結合範例介紹、設計思考實作方法，總計4小時。</p>
                                 </li>
                             </ul>
-                        </div> <!-- end timeline content-->
-                    </div> <!-- end tab-content -->
-                </div> <!-- end card-box-->
+                        </div>
+                    </div>
+                </div>
 
-            </div> <!-- end col -->
+            </div>
         </div>
         
         <div class="row">
@@ -452,18 +442,17 @@
 
         window.addEventListener('scroll', () => {
             const backToTopBtn = document.getElementById('backToTopBtn');
-            if (window.scrollY > 100) { // 當滾動超過 100px 時顯示按鈕
+            if (window.scrollY > 100) {
                 backToTopBtn.style.display = 'block';
             } else {
                 backToTopBtn.style.display = 'none';
             }
         });
 
-        // 點擊按鈕返回至頂部
         document.getElementById('backToTopBtn').addEventListener('click', () => {
             window.scrollTo({
                 top: 0,
-                behavior: 'smooth' // 平滑滾動
+                behavior: 'smooth'
             });
         });
     </script>
